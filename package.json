@@ -1,0 +1,33 @@
+{
+  "name": "nceserv",
+  "version": "1.0.4",
+  "description": "Node Chess Engine Server",
+  "main": "nceserv.js",
+  "bin": {
+    "nceserv": "nceserv.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodechessengineserver/nceserv.git"
+  },
+  "keywords": [
+    "chess",
+    "engine",
+    "server"
+  ],
+  "author": "Nodechess Engineserver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodechessengineserver/nceserv/issues"
+  },
+  "homepage": "https://github.com/nodechessengineserver/nceserv#readme",
+  "dependencies": {
+    "@types/node": "^8.0.53",
+    "express": "^4.16.2",
+    "formidable": "^1.1.1",
+    "ws": "^3.3.1"
+  }
+}
